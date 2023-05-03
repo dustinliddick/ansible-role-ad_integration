@@ -1,0 +1,17 @@
+---
+namespace: dustinliddick
+name: ad_integration
+version: 1.0.1
+readme: README.md
+authors:
+  - Dustin Liddick <dustin.liddick@collegiseducation.com>
+description: Install or uninstall software on a VM used at [Collegis Eduation](https://collegiseducation.com/).
+license_file: 'LICENSE'
+tags:
+  - roles
+  - linux
+  - software
+repository: https://gitlab.collegiseducation.com/dustinliddick/ansible-role-ad_integration.git
+documentation: https://gitlab.collegiseducation.com/engineering_server_team/documentation.git
+homepage: https://collegiseducation.com
+build_ignore: []
