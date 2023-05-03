@@ -105,7 +105,7 @@ Hostname or IP address of time source to synchronize the system clock with. Prov
 
 #### ad_integration_manage_crypto_policies
 
-If true, the ad_integration role will use fedora.linux_system_roles.crypto_policies as needed
+If true, the ad_integration role will use dustinliddick.crypto_policies as needed
 
 Default: false
 

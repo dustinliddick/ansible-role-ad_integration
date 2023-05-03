@@ -10,7 +10,7 @@ ad_integration_password: ""
 
 ## Optional vars
 # Active Directory user used to join the domain
-ad_integration_user: "Administrator"
+ad_integration_user: ""
 
 # Active Directory domain controller's host name or IP address to join
 # via that domain controller directly.
@@ -33,7 +33,7 @@ ad_integration_membership_software: "adcli"
 
 # The distinguished name of an organizational unit to create the computer
 # account.  It can be relative to the Root DSE, or a complete LDAP DN.
-ad_integration_computer_ou: null
+ad_integration_computer_ou: ""
 
 # If true, the ad_integration role will use fedora.linux_system_roles.timesync.
 # `ad_integration_timesync_source` variable is required,
@@ -46,12 +46,12 @@ ad_integration_timesync_source: null
 
 # If true, the ad_integration role will use
 # fedora.linux_system_roles.crypto_policies as needed
-ad_integration_manage_crypto_policies: false
+ad_integration_manage_crypto_policies: true
 
 # If true, the ad_integration role will set the crypto policy
 # allowing RC4 encryption.
 # Requires ad_integration_manage_crypto_policies to be set to true
-ad_integration_allow_rc4_crypto: false
+ad_integration_allow_rc4_crypto: true
 
 # If true, the ad_integration role will use fedora.linux_system_roles.network
 # to configure an existing network connection DNS configuration (manual)
